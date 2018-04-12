@@ -52,7 +52,7 @@ deep_learning_exo1:  The MNIST dataset La notion de “momentum” : Le “momen
 Une image mentale utile ici consiste à considérer le processus d'optimisation comme une petite boule roulant sur la courbe des pertes. Si elle a assez d'élan, la balle ne sera pas bloquée dans un ravin et ﬁnira au minimum global. L'impulsion est mise en œuvre en déplaçant la balle à chaque pas en fonction non seulement de la valeur actuelle de la pente (accélération actuelle), mais aussi de la vitesse actuelle (résultant de l'accélération précédente).
 Crédit : François Chollet, Keras, livre “Deep Learning”, éditions Manning
 
-deep_learning_exo1:  The MNIST dataset En conclusion : Vous avez pu revoir plusieurs concepts déjà abordés auparavant:
+En conclusion : Vous avez pu revoir plusieurs concepts déjà abordés auparavant:
 • La “vectorization” et la normalisation des données ;
 • Le “One-Hot-Encoder” (version Scikit-Learn) qui facilite l’apprentissage du deep learning.
 Vous venez de voir comment nous pourrions construire et former un réseau de neurones pour classer les chiﬀres manuscrits, en moins de 20 lignes de code Python. 
